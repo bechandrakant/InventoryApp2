@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Inventory App 2</string>
+    <string name="unable_to_query">Unable to query</string>
+    <string name="insert_failed">Insert operation Failed</string>
+    <string name="error">Enter valid values.</string>
+    <string name="no_product_name">No Product Name</string>
+    <string name="no_product_price">No product price</string>
+    <string name="no_product_quantity">No Product Quantity</string>
+    <string name="no_supplier_name">No supplier name</string>
+    <string name="no_supplier_phone">No Supplier Phone</string>
+    <string name="unable_to_delete">Unable to delete</string>
+    <string name="update_failed">Update Failed.</string>
+    <string name="negative_quantity">Negative Quantity</string>
+    <string name="no_data">No Products Available.</string>
+    <string name="delete_all_products">Delete All Products</string>
+    <string name="sale_btn_text">Sell 1 Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price_eg_49">Product Price eg: 49</string>
+    <string name="product_quantity_eg_54">Product Quantity eg: 54</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_phone_eg_9999988888">Supplier phone eg:9999988888</string>
+    <string name="query_data">Query Data</string>
+    <string name="insert_btn_txt">insert</string>
+    <string name="call_supplier_button">Call Supplier</string>
+    <string name="add_product">Add Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="enter_valid_data">Enter Valid Data</string>
+    <string name="no_activity">No Activity Found</string>
+    <string name="negative_price">Negative Price</string>
+    <string name="insert_success">Data Inserted Succesfully.</string>
+    <string name="update_success">Updated product Successfully.</string>
+    <string name="delete_success">Deleted Product Succesfully.</string>
+    <string name="delete_failed">Product Deletion Failed.</string>
+</resources>

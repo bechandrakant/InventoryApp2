@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_spacing"
+    tools:context=".ProductDetailsActivity">
+
+    <EditText
+        android:id="@+id/product_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_name" />
+
+    <EditText
+        android:id="@+id/product_price_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/semi_default_spacing"
+        android:hint="@string/product_price_eg_49"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/decrement_quantity"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:textSize="@dimen/sp_24"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/default_spacing"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/product_quantity_et"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/semi_default_spacing"
+            android:hint="@string/product_quantity_eg_54"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/increment_quantity"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_48"
+            android:textSize="@dimen/sp_24"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/default_spacing"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/supplier_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/semi_default_spacing"
+        android:hint="@string/supplier_name" />
+
+    <EditText
+        android:id="@+id/supplier_phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/semi_default_spacing"
+        android:hint="@string/supplier_phone_eg_9999988888"
+        android:inputType="numberDecimal"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/insert_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_spacing"
+        android:text="@string/insert_btn_txt" />
+
+    <Button
+        android:id="@+id/call_supplier_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/default_spacing"
+        android:text="@string/call_supplier_button" />
+
+</LinearLayout>
